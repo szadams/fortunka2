@@ -41,3 +41,6 @@ gem "execjs"
 gem "therubyracer"
 gem "wirble", :group => :development
 gem "hirb", :group => :development
+
+gem 'omniauth'
+gem 'omniauth-github'

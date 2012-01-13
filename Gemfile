@@ -44,3 +44,6 @@ gem "hirb", :group => :development
 
 gem 'omniauth'
 gem 'omniauth-github'
+
+gem 'kaminari'
+gem 'responders'

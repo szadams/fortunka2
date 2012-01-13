@@ -3,11 +3,11 @@
 <% @fortunes.each do |fortune| %>
 <article class="index">
   <div class="attribute">
-    <span class="name">Cytat</span>
+    <span class="name"><b>Cytat</b></span>
     <span class="value"><%= fortune.quotation %></span>
   </div>
     <div class="attribute">
-    <span class="name">Źródło</span>
+    <span class="name"><b>Źródło</b></span>
     <span class="value"><%= fortune.source %></span>
   </div>
     <div class="links">
@@ -18,6 +18,8 @@
   </div>
 </article>
 <% end %>
+<br/>
+<p><%= paginate @fortunes %></p>
 
 <div class="link">
   <%= link_to 'Nowa fortunka', new_fortune_path, class: "btn primary" %>

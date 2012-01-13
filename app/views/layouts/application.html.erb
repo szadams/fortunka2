@@ -47,12 +47,10 @@
           <%= content_tag :h1, yield(:title) if show_title? %>
         </div>
         <div class="row">
-          <div class="span10"><!-- 10 * 60 = 600 px -->
+          <div class="span11"><!-- 10 * 60 = 600 px -->
             <%= yield %>
           </div>
-          <div class="span4"><!-- 4 * 60 = 240 px -->
-            <h3>[secondary content]</h3>
-          </div>
+          
         </div>
       </div>
 

@@ -12,5 +12,5 @@ rake db:migrate
 
 ## Uruchamianie:
 
-source dziennik-config.sh <br />
+source fortunka-config.sh <br />
 rails s -p 3000

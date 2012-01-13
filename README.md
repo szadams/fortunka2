@@ -12,5 +12,5 @@ rake db:migrate
 
 ## Uruchamianie:
 
-source dziennik-config.sh
+source dziennik-config.sh <br />
 rails s -p 3000

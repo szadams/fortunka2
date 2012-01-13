@@ -47,3 +47,4 @@ gem 'omniauth-github'
 
 gem 'kaminari'
 gem 'responders'
+gem 'haml'

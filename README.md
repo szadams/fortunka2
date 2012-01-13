@@ -7,6 +7,7 @@ Aplikacja wyświetlająca cytaty/sentencje.
 
 bundle install --path=$HOME/.gems <br />
 rails g formtastic:install <br />
+rails generate responders:install <br />
 rake db:migrate
 
 ## Uruchamianie:
